@@ -1,2 +1,81 @@
 /* Jonathan Gabriel Morales Torres - 5to Computación "B" - Clave 10*/
 /* Estilos del programa */
+
+/* Cuerpo*/
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+}
+
+/* Trabajamos con los elementos del glass.card*/
+.glass-card {
+    width: 320px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    text-align: center;
+    color: white;
+}
+
+/*Los títulos de importancia #2*/
+h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Los textos que ingresa*/
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Texto 1*/
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Texto 2*/
+input:focus {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Los botones*/
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: white;
+    color: #3F5EFB;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+/* Al pasar el mouse por el boton*/
+button:hover {
+    transform: scale(1.05);
+    background: #f0f0f0;
+}

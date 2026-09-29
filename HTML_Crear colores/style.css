@@ -1,2 +1,33 @@
 /* Jonathan Gabriel Morales Torres - 5to Computación "B" - Clave 10*/
 /* Estilos del programa */
+
+/* Cuerpo de página*/
+body {
+    background: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* La caja de colores*/
+.box {
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Color sólido*/
+.solid {
+    background-color: rgb(255, 0, 0);
+}
+
+/* Y el color transparente*/
+.trans {
+    background-color: rgba(255, 0, 0, 0.5);
+}

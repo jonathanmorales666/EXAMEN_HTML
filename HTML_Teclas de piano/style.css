@@ -1,2 +1,38 @@
 /* Jonathan Gabriel Morales Torres - 5to Computación "B" - Clave 10*/
 /* Estilos del programa */
+/* Cuerpo del documento*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f0fff0;
+}
+
+/* Contenedor del piano*/
+.piano {
+    position: relative;
+    display: flex;
+}
+
+/* Estilo de las teclas blancas*/
+.white {
+    width: 60px;
+    height: 150px;
+    border: 1px solid #ccc;
+    background: white;
+}
+
+/* Estilo de las teclas negras*/
+.black {
+    width: 40px;
+    height: 90px;
+    background: black;
+    position: absolute;
+    z-index: 2;
+}
+/* Tecla negra izquierda*/
+.b1 { left: 40px; }
+/*Tecla negra derecha*/
+.b2 { left: 100px; }
