@@ -1,2 +1,27 @@
 /* Jonathan Gabriel Morales Torres - 5to Computación "B" - Clave 10*/
 /* Estilos del programa */
+/* Trabajamos con el cuerpo*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+    margin: 0;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+/* Trabajamos con el texto RNB*/
+.rnb-text {
+    font-size: 90px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    margin: 0;
+
+    background: linear-gradient(135deg, #240046 0%, #7b2cbf 50%, #ffd700 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+    filter: drop-shadow(2px 2px 0px rgba(0,0,0,0.11));
+}
