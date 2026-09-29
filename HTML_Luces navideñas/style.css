@@ -1,2 +1,70 @@
 /* Jonathan Gabriel Morales Torres - 5to Computación "B" - Clave 10*/
 /* Estilos del programa */
+
+/* Trabajamos con el cuerpo*/
+body{
+    margin: 0;
+    height: 100vh;
+    background: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+
+/*Trabajamos con la clase wire*/
+.wire{
+    position: absolute;
+    top:40px;
+    width: 80%;
+    height: 2px;
+    background: #333;
+}
+
+/* Trabajamos con la clase string*/
+.string{
+    display: flex;
+    gap: 30px;
+    z-index: 2;
+}
+
+/* Trabajamos con la clase bulb*/
+.bulb{
+    width: 20px;
+    height: 30px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: relative;
+}
+
+/* Trabajamos coon la parte superior de la bombilla*/
+.bulb::before{
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 5px;
+    width: 10px;
+    height: 8px;
+    background: #444;
+}
+
+/* Trabajamso con los colores de las bombillas*/
+/* Bombilla roja*/
+.red{
+    background: #ff3333;
+    box-shadow: 0 0 15px #ff3333;
+}
+
+.green{
+    background: #46b96d;
+    box-shadow: 0 0 15px #46b96d;
+}
+
+.blue{
+    background: #3a5fa3;
+    box-shadow: 0 0 15px #3a5fa3;
+}
+
+.yellow{
+    background: #fae41e;
+    box-shadow: 0 0 15px #fae41e;
+}
