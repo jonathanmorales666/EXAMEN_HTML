@@ -1,0 +1,57 @@
+/* Jonathan Gabriel Morales Torres - 5to Computación "B" - Clave 10*/
+/* Estilos del programa */
+
+/* Trabajamos con el cuerpo*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #909fb6;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Trabajamos con la clase card*/
+.card {
+    width: 240px;
+    background: rgb(197, 204, 207);
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Trabajamos con los títulos de importancia #3*/
+h3 {
+    margin: 0;
+    color: #333;
+    font-size: 22px;
+}
+
+/* Trabajamos con la clase info*/
+.info {
+    color: #252121;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Trabajamos con la clase bio*/
+.bio {
+    color: #555;
+    font-size: 15px;
+    margin: 20px 0;
+    line-height: 1.4;
+}
+
+/* Trabajamos con los botones*/
+button {
+    width: 100%;
+    padding: 12px;
+    background: #1e405f;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
