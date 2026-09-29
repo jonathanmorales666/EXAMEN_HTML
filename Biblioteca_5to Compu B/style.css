@@ -1,0 +1,89 @@
+/* Jonthan Gabriel Morales Torres - 5to Computación "B"*/
+/* Estilos de la página*/
+
+/* Trabajamos con el cuerpo*/
+body{
+    /* Añade color al fondo*/
+    background-color: rgba(165, 42, 42, 0.644);
+    /* Añade fuente de letra*/
+    font-family: Arial;
+    /* Elimina el margen predeterminado del navegador*/
+    margin: 0;
+    /* Agrega espacio interno alrededor del contenido*/
+    padding: 30px;
+}
+
+/* Trabajamos con los títulos de mayor importancia*/
+h1{
+    /* Agrega color al título*/
+    color: white;
+    /* Centra el título*/
+    text-align: center;
+    /* Define el tamaño del título*/
+    font-size: 24px;
+    /* Deja espacio debajo del título*/
+    margin-bottom: 30px;
+}
+
+/* Trabajamos con los contenedores de libros*/
+.contenedor-libros{
+    /* Activa CSS grid*/
+    display: grid;
+    /* Crea 5 columnas iguales*/
+    grid-template-columns: repeat(5, 1fr);
+    /* Espacios entre libros*/
+    gap: 30px;
+}
+
+/* Trabajamos con la clase libro*/
+.libro{
+    /* Fondo de color chococale para los libros*/
+    background-color: chocolate;
+    /* Para tener un borde en todos los libros*/
+    border: 2px solid;
+    /* Espacio interno de cada libro*/
+    padding: 20px;
+    /* Establece una altura mínima*/
+    min-height: 190px;
+    /* Incluye padding y borde dentro del tamaño*/
+    box-sizing: border-box;
+}
+
+/* Trabajamos con los h2 del libro*/
+.libro h2{
+    /* Color para los títulos de los libros*/
+    color:white;
+    /* Tamaño para los títulos de los libros*/
+    font-size: 18px;
+    /* Elimina espacio superior*/
+    margin-top: 0;
+}
+
+/* Trabajamos con los párrafos de los libros*/
+.libro p{
+    /* Tamaño del texto*/
+    font-size: 14px;
+    /* Separación entre cada dato*/
+    margin: 6px 0;
+}
+
+/* Disponibilidad del libro*/
+.disponible{
+    /* Color para los disponibles*/
+    color: green;
+    /* Le agregamos negrita*/
+    font-weight: bold;
+}
+
+/* libros NO disponibles*/
+.no-disponible{
+    /* Le agregamos color rojo a los no disponibles*/
+    color:red;
+    font-weight: bold;
+}
+
+/* Al pasar el cursos por el contenedor*/
+.libro:hover{
+    /* Efecto de escala al pasar el mouse*/
+    transform: scale(1.05);
+}
