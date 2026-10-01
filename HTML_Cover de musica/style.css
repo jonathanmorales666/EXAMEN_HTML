@@ -1,0 +1,54 @@
+/* Trabajamos con el cuerpo*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #8d7373;
+    font-family: sans-serif;
+}
+/* La clase cover*/
+.cover {
+    width: 300px;
+    height: 380px;
+    background: linear-gradient(
+        45deg,
+        #584d0e 0%,
+        #5f1c1c 99%,
+        #be0000 100%
+    );
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    color: white;
+}
+
+/* La clase círculo */
+.circle {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: rgba(146, 130, 130, 0.2);
+    border-radius: 50%;
+}
+
+/* Títulos de importancia #2*/
+h2 {
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Párrafos */
+p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    opacity: 0.8;
+}
