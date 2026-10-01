@@ -1,0 +1,63 @@
+/* Jonathan Gabriel Morales Torres - 5to Computación "B" */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+    margin: 0;
+}
+
+/* TARJETA de suscripción*/
+.subscribe-card {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    border: 1px solid #333;
+    box-shadow: 0 1px 20px rgba(0,0,0,0.3);
+}
+
+/* Títulos de importancia #2*/
+h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Párrafos */
+p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: #2a2a2a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* Botones */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #22c55e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Botones al pasar el mouse por encima */
+button:hover {
+    background: #16a34a;
+}

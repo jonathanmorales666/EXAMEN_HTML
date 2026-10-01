@@ -1,0 +1,51 @@
+/* Jonathan Gabriel Morales Torres - 5to Computación "B" */
+/* Estilos para la barra de navegación responsiva */
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* Navegación */
+nav {
+    background: #fbc02d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+/* Logo */
+.logo {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Enlaces de navegación */
+.links {    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+/* Enlaces de navegación */
+.links a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+/* Enlaces de navegación */
+    .links {
+        flex-direction: column;
+        text-align: center;
+    }
+}
